@@ -1,0 +1,18 @@
+package com.in28minutes.learnspringframework;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class App02HelloWorldSpring {
+
+	public static void main(String[] args) {
+		
+		//1. spring context 작성
+		
+		var context =
+			new AnnotationConfigApplicationContext(HelloWorldConfiguration.class); 
+		
+		//2. spirng 설정파일 만들기 
+		System.out.println(context.getBean("name")); //메서드 이름으로 불러오기
+	}
+
+}

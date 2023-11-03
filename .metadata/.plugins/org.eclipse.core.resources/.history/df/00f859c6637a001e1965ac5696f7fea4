@@ -1,0 +1,41 @@
+package com.in28minutes.learnspringframework;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+//Eliminate verbosity in creating Java Beans
+//Public accessor methods, constructors,
+//equals , hashcode and toString are automatically created.
+//record -> Released in JDK 16+;  -> Setter getter 필요없음
+record Person(String name, int age) {};
+
+//Address - firstLine & city
+record Address(String firstLine, String city) {}; 
+
+@Configuration
+public class HelloWorldConfiguration {
+	
+	@Bean //Bean을 통해 객체화
+	public String name() {
+		return "Ranga";
+	}
+	@Bean 
+	public int age() {
+		return 15;
+	}
+	
+	@Bean
+	public Person person() {
+		return new Person("Ravi", 20);
+	}
+	
+	@Bean
+	public Person person() {
+		return new Person("Ravi", 20);
+	}
+	@Bean(name ="address2")
+	public Address address() {
+		return new Address("Baker Street", "London");
+	}
+	
+ }

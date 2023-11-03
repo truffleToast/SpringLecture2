@@ -1,0 +1,13 @@
+package com.in28minutes.learnspringframework;
+
+
+public class App02HelloWorldSpring {
+
+	public static void main(String[] args) {
+		
+		//1. spring context 작성
+		//2. spirng 설정파일 만들기
+
+	}
+
+}
