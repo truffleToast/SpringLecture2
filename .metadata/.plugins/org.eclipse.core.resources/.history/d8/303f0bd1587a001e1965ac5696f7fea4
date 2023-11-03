@@ -1,0 +1,14 @@
+package com.in28minutes.learnspringframework;
+
+public class AppGamingBasicJava {
+
+	public static void main(String[] args) {
+		// Mario Game
+		
+		var marioGame = new MarioGame();
+		var ganeRunner = new GameRunner(marioGame);
+		gameRunner.run();
+		
+	}
+
+}
