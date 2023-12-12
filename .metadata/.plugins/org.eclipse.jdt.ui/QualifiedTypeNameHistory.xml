@@ -4,12 +4,16 @@
     <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.SuperContraGame"/>
     <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.GamingConsole"/>
     <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.PackmanGame"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
     <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.HelloWorldConfiguration"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.GamingConfiguration"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.game.PackmanGame"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.game.GamingConsole"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.game.GameRunner"/>
 </qualifiedTypeNameHistroy>
