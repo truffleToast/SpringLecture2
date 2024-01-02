@@ -8,21 +8,28 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
-import com.in28minutes.learnspringframework.examples.c1.DataService;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 
-@Component
+
+@Named
 class BusinessService{
 	private DataService dataService;
 	
-	@Autowired
-	public DataService getDataService() {
-		return dataService;
-	}
 	
+	@Inject
 	public void setDataService(DataService dataService) {
 		this.dataService = dataService;
 	}
+	public DataService getDataService() {
+		return dataService;
+	}
+}
+
+@Named
+class DataService{
+	
 }
 
 @Configuration
