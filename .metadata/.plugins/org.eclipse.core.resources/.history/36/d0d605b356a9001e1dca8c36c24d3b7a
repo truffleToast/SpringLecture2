@@ -1,0 +1,18 @@
+package com.in28minutes.springboot.learnspringboot;
+
+import org.springframework.web.bind.annotation.RestController;
+
+//http:localhost:8080/courses
+[
+{
+	 "id":1,
+	 "name": "Learn AWS",
+	 "author": "in28minutes"
+}
+	]	
+
+
+@RestController
+public class CourseController {
+
+}
