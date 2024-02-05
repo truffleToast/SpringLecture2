@@ -1,0 +1,29 @@
+package com.in28minutes.learnspringframework.examples.d1;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+
+@Component
+class ClassA{
+	
+}
+
+class ClassB{
+	
+	//Class A를 매개변수로 하는 생성자 호출하기
+	private ClassA classA;
+	
+	public ClassB(ClassA classA) {
+		this.classA =classA;
+	}
+}
+
+
+@Component
+@Configuration
+public class LazyInitializationLauncherApplication {
+
+}
+
+
