@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\ADMIN\Desktop\SpringLecture2\learn-jpa-and-hibernate"/>
 			<item value="F:\Programming\git\SpringLecture2\learn-jpa-and-hibernate"/>
 			<item value="C:\Users\ADMIN\Desktop\SpringLecture2"/>
 			<item value="F:\Programming\git\SpringLecture2\learn-spring-boot"/>
